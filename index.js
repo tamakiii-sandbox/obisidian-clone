@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 
 app.whenReady().then(() => {
@@ -12,4 +12,5 @@ app.whenReady().then(() => {
   })
 
   window.loadFile('index.html')
+  ipcMain.handle('ping', () => 'pong')
 })
