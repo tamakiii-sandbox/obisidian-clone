@@ -19,6 +19,7 @@
   "homepage": "https://github.com/tamakiii-sandbox/obsidian-clone#readme",
   "devDependencies": {
     "electron": "^21.1.1",
-    "esbuild": "^0.15.11"
+    "esbuild": "^0.15.11",
+    "typescript": "^4.8.4"
   }
 }
