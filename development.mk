@@ -4,4 +4,4 @@ help:
 	@cat $(firstword $(MAKEFILE_LIST))
 
 run:
-	npx --no -- electron .
+	npx --no -- electron dist
