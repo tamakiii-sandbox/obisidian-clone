@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tamakiii-sandbox/obsidian-clone/issues"
   },
-  "homepage": "https://github.com/tamakiii-sandbox/obsidian-clone#readme"
+  "homepage": "https://github.com/tamakiii-sandbox/obsidian-clone#readme",
+  "devDependencies": {
+    "electron": "^21.1.1"
+  }
 }
