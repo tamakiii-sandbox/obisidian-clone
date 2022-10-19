@@ -21,5 +21,9 @@
     "electron": "^21.1.1",
     "esbuild": "^0.15.11",
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
