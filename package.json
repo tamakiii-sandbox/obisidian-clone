@@ -1,0 +1,29 @@
+{
+  "name": "obsidian-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamakiii-sandbox/obsidian-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamakiii-sandbox/obsidian-clone/issues"
+  },
+  "homepage": "https://github.com/tamakiii-sandbox/obsidian-clone#readme",
+  "devDependencies": {
+    "electron": "^21.1.1",
+    "esbuild": "^0.15.11",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
